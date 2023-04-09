@@ -122,7 +122,9 @@ class _HomePageState extends State<HomePage> {
                   CircleAvatar(
                     backgroundColor: Colors.green,
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushNamed('animal_categories');
+                      },
                       icon: const Icon(
                         Icons.navigate_next,
                         color: Colors.white,
