@@ -10,7 +10,6 @@ void main() {
         useMaterial3: true,
       ),
       routes: {
-        // '/': (context) => const AnimalHome(),
         '/': (context) => const SplashScreen(),
         'animal_categories': (context) => const AnimalCategories(),
       },
